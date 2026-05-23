@@ -18,7 +18,7 @@ A lightweight proxy for Roblox API endpoints.
 
 You need to have [Rust](https://www.rust-lang.org/tools/install) installed to build & run Roverse.
 
-Compile and run the proxy with:
+Compile and run the proxy:
 
 ```
 # Clone the repository
@@ -45,7 +45,7 @@ By default, Roverse listens on `http://127.0.0.1:8080`. You can change this by s
 
 ## Security
 
-To secure your proxy from unautharized access, you can set the `ROVERSE_SECRET` environment variable to require a `X-Proxy-Secret` header in all requests.
+To secure your proxy from unautharized access, set the `ROVERSE_SECRET` environment variable to require a `X-Proxy-Secret` header in all requests.
 
 # License
 
