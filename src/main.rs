@@ -24,7 +24,7 @@ struct AppState {
 #[tokio::main]
 async fn main() -> Result<(), Box<dyn std::error::Error>> {
     let addr = env::var("ROVERSE_ADDR")
-        .unwrap_or_else(|_| "127.0.0.1:80".to_owned())
+        .unwrap_or_else(|_| "127.0.0.1:8080".to_owned())
         .parse::<SocketAddr>()?;
 
     let client = Client::builder().build()?;

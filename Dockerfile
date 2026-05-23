@@ -46,10 +46,10 @@ FROM scratch
 COPY --from=build /etc/ssl/certs/ca-certificates.crt /etc/ssl/certs/ca-certificates.crt
 COPY --from=build /roverse /roverse
 
-ENV ROVERSE_ADDR=0.0.0.0:80
+ENV ROVERSE_ADDR=0.0.0.0:8080
 ENV ROVERSE_SECRET=
 
-EXPOSE 80
+EXPOSE 8080
 USER 65532:65532
 
 CMD ["/roverse"]

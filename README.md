@@ -36,12 +36,12 @@ To use the proxy, convert any Roblox API URL by moving the subdomain into the fi
 
 ```
 Roblox URL:  https://{subdomain}.roblox.com/{path}
-Roverse URL: http://127.0.0.1:80/{subdomain}/{path}
+Roverse URL: http://127.0.0.1:8080/{subdomain}/{path}
 ```
 
 ## Address
 
-By default, Roverse listens on `http://127.0.0.1:80`. You can change this by setting the `ROVERSE_ADDR` environment variable.
+By default, Roverse listens on `http://127.0.0.1:8080`. You can change this by setting the `ROVERSE_ADDR` environment variable.
 
 ## Security
 
